@@ -1,4 +1,10 @@
 DemoApp::Application.routes.draw do
+  get "performance_results/home"
+
+  get "performance_results/help"
+
+  get "home/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
