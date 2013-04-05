@@ -4,4 +4,7 @@ class PerformanceResultsController < ApplicationController
 
   def help
   end
+
+  def contact
+  end
 end
